@@ -212,4 +212,3 @@ abstract class IconPickerFragmentBase<T> :
         private const val SELECT_IMAGE_CODE = 1
     }
 }
-

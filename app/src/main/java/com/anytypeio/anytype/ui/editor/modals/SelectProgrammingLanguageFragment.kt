@@ -1,5 +1,6 @@
 package com.anytypeio.anytype.ui.editor.modals
 
+import android.content.res.Configuration
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -48,6 +49,11 @@ class SelectProgrammingLanguageFragment :
             layoutManager = LinearLayoutManager(context)
             adapter = selectLangAdapter
         }
+    }
+
+    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        // Handle configuration changes here if needed
     }
 
     override fun injectDependencies() {}

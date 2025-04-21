@@ -1,6 +1,7 @@
 package com.anytypeio.anytype.ui.editor.modals
 
 import android.content.DialogInterface
+import android.content.pm.ActivityInfo
 import android.os.Bundle
 import android.view.DragEvent
 import android.view.LayoutInflater
